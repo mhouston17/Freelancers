@@ -1,0 +1,315 @@
+
+.freelancers{
+    background-color: rgb(238, 222, 239);
+    font-family: sans-serif;
+    /*height: 656px;*/ 
+    /*overflow: hidden; */
+}
+.freelancers .container {
+    padding: 20px 10px;
+    display: flex; 
+    
+}
+.freelancers .fa-brands{
+    color: red;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;;
+    padding: 5px;
+    font-size: 65px;
+    transform: rotate(-30deg); 
+    margin-top: 60px;
+} 
+.freelancers .fa-envelope-circle-check{
+    color: rgb(45, 40, 108);
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 55px;
+    transform: rotate(-10deg); 
+    position: relative;
+    top: 500px;
+    right: -100%;
+    
+} 
+.freelancers .fa-facebook{
+    color: #1877f2;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 85px;
+    position: relative;
+    top: 490px;
+    right: -77%;
+    transform: rotate(0deg); 
+} 
+.freelancers .container .right-side .others .nike{
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px;
+    width: 55px;
+    height: 55px;
+    transform: rotate(-10deg); 
+    top: 390px;
+    left: 30%;
+    position: relative;
+    border-radius: 10px;
+} 
+.freelancers .container .right-side .others .first-instagram{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 8px;;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    transform: rotate(-30deg); 
+    top: 185px;
+    left: 130%;
+    position: relative;
+} 
+.freelancers .container .left-side {
+    padding: 10px 150px;
+    width: 40%;
+    
+}
+.freelancers .container .left-side span{
+    right: 50px;
+    font-size: 70px;
+    font-weight: 600; 
+}
+.freelancers .container .left-side p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+.actions {
+    display: flex;
+    align-items: center;
+}
+#action-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#action-list li {
+    margin-right: 10px; 
+}
+
+.freelancers .container .left-side .actions ul li{
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.freelancers .container .left-side .fa-play{
+    padding: 20px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: 20px;
+    position: relative;
+}
+
+.freelancers .container .left-side .actions button, .top-button{
+    padding: 30px;
+    background-color: rgb(243, 55, 133);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+}
+
+.freelancers .container .right-side {
+    width: 60%;
+    display: block;
+}
+.freelancers .container .right-side #larger-star{
+    color: rgb(238, 197, 240);
+    font-size: 550px;
+    position: relative;
+    right: 8%;
+    bottom: 21%;
+    resize: none;
+}
+.freelancers .container .right-side img{
+    /*width: 60%;*/
+    height: 75%;
+    position: absolute;
+    bottom: 11.5%;
+    left: 45%;
+}
+
+.freelancers .right-side .others{
+    bottom: 50%;
+    position: absolute;
+}
+.freelancers .right-side .others .profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
+    left: 55%;
+    top: 150px;
+}
+.freelancers .right-side .comment-bubble{
+    text-align: center;
+    display: block;
+    border-radius: 25px 25px 0 25px;
+    width: 85%;
+   /* height: 35%;*/
+    padding: 25px;
+    background-color: rgb(30, 30, 70);
+    color: white;
+    position: relative;
+    top: 260px;
+    left: 175%;
+    line-height: 25px;
+}
+.freelancers .right-side .comment-bubble .fa-star{
+    color: yellow;
+    margin-top: 10px;;
+}
+
+@media only screen and (max-width: 767px) {
+    .freelancers {
+        padding: 20px 20px;
+    }
+    
+    .freelancers .container .right-side {
+        display: none;
+    }
+    .freelancers .container .left-side {
+        width: 100%;
+     }
+    
+    .freelancers .container .left-side span{
+       font-size: 50px;
+       text-align: center;
+    }
+    .freelancers .container .left-side .actions button .top-button{
+        padding: 5px;
+        background-color: rgb(243, 55, 133);
+        color: white;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 15px;
+        
+    }
+   
+}
+
+@media only screen and (max-width: 1023px) {
+    .freelancers .container .right-side {
+        display: none;
+    }
+    .freelancers .container .left-side{
+        width: 100%;
+    }
+    .freelancers .container .left-side span{
+        right: 50px;
+        font-size: 70px;
+        font-weight: 600; 
+    }
+    .freelancers .container .left-side p{
+        margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 50px;
+        line-height: 30px;
+    }
+}
+/*@media only screen and (max-width: 1100px){
+    .freelancers .container .right-side img{
+        width: 40%;
+        height: 55%;
+        position: absolute;
+        
+        left: 45%;
+    }
+}*/
+
+@media only screen and (max-width: 1215px) {
+    .freelancers .container .left-side {
+        padding: 10px 150px;
+        width: 40%;
+        
+    }
+    .freelancers .container .left-side span{
+        right: 50px;
+        font-size: 40px;
+        font-weight: 600; 
+    }
+    .freelancers .container .left-side p{
+        margin-top: 20px;
+        font-size: 15px;
+        margin-bottom: 50px;
+        line-height: 30px;
+    }
+    .freelancers .container .right-side img{
+        /*width: 60%;*/
+        height: 55%;
+        position: absolute;
+        bottom: 13.5%;
+        left: 45%;
+    }
+    .freelancers .container .right-side #larger-star{
+        color: rgb(238, 197, 240);
+        font-size: 300px;
+        position: relative;
+        right: 8%;
+        top: 55px;
+        resize: none;
+    }
+    .freelancers .right-side .comment-bubble{
+       display: none;
+    }
+    .freelancers .fa-envelope-circle-check{
+        color: rgb(45, 40, 108);
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 8px;
+        padding: 5px;
+        font-size: 55px;
+        transform: rotate(-10deg); 
+        position: relative;
+        top: 500px;
+        right: -100%;
+        
+    } 
+    .freelancers .fa-facebook{
+        color: #1877f2;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 8px;
+        padding: 5px;
+        font-size: 55px;
+        position: relative;
+        top: 280px;
+        right: -27%;
+        transform: rotate(0deg); 
+    } 
+    .freelancers .container .right-side .others .nike{
+        top: 190px;
+        left: -10px;
+        position: relative;
+        border-radius: 10px;
+    } 
+    .freelancers .container .right-side .others .first-instagram{
+        width: 40px;
+        height: 40px;
+        top: 105px;
+        left: 50%;
+        position: relative;
+    } 
+    .freelancers .right-side .others .profile{
+        position: relative;
+        left: 25%;
+        top: 60px;
+    }
+
+}
+

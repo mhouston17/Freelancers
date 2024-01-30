@@ -1,0 +1,348 @@
+.platform {
+    margin: 0 auto;
+    padding: 0 0px;
+    font-family: sans-serif;
+    /*overflow: hidden; */
+}
+.platform .container{
+    display: flex;
+ }
+ .platform .container .left{
+    width: 25%;
+}
+.platform .container .left{
+    margin-left: 18%;
+}
+.platform .container .left h3{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 30px;  
+}
+.platform .container .left p{
+    margin-bottom: 40px; 
+    line-height: 30px; 
+}
+.platform .container .left .pink-box{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(250, 236, 246);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    color: rgb(187, 44, 197);
+    display: flex;
+    align-items: center;
+}
+.platform .container .left .pink-box p{
+   margin-left: 10px;
+   font-size: 15px;
+   font-weight: 600;
+   display: flex;
+   margin-top: 40px;
+   margin-left: 20px;
+   line-height: 20px;
+}
+.platform .container .left .pink-box .user{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+    margin-left: 20px;
+    box-shadow: 7px 30px 29px -7px rgba(161,155,155,0.33);
+-webkit-box-shadow: 7px 30px 29px -7px rgba(161,155,155,0.33);
+-moz-box-shadow: 7px 30px 29px -7px rgba(161,155,155,0.33);
+ 
+ }
+.platform .container .left .yellow-box{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(250, 246, 235);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    color:rgb(214, 129, 10);
+    display: flex;
+    
+}
+.platform .container .left .yellow-box .backpack{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    box-shadow: 7px 30px 29px -7px rgba(161,155,155,0.33);
+-webkit-box-shadow: 7px 30px 29px -7px rgba(161,155,155,0.33);
+-moz-box-shadow: 7px 30px 29px -7px rgba(161,155,155,0.33);
+}
+.platform .container .left .yellow-box p{
+    margin-left: 20px;
+    font-size: 15px;
+   font-weight: 600;
+   display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.platform .container .left .blue-box{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(221, 237, 243);
+    margin-bottom: 40px;
+    border-radius: 10px;
+    color: rgb(30, 30, 92);
+    display: flex;
+}
+.platform .container .left .blue-box .hammer{
+   
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+    box-shadow: 7px 30px 29px -7px rgba(161,155,155,0.33);
+-webkit-box-shadow: 7px 30px 29px -7px rgba(161,155,155,0.33);
+-moz-box-shadow: 7px 30px 29px -7px rgba(161,155,155,0.33);
+}
+.platform .container .left .blue-box p{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    line-height: 20px;;
+}
+.platform .container .right {
+    overflow: hidden;
+    width: 50%;
+    margin-left: 10%;
+}
+.platform .container .right .human-box {
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
+    top:80px;
+    box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+    background-color: white;
+    padding: 10px;
+    line-height: 30px;
+}
+.platform .container .right .human-box .under-graph{
+    font-size: 15px;
+    color: grey;
+}
+.platform .container .right #white-man{
+    position:relative;
+    height: 100%;
+    bottom: 130px;
+    right: 60px;
+ }
+ .platform .container #telegram{
+    position: relative;
+    height: 85px;
+    width: 85px;
+    transform: rotate(-30deg);
+    left: 10%;
+    top: 570px;
+    
+ }
+
+.platform .container .fa-seedling {
+   font-size: 450px;
+   position: absolute;
+   color:rgb(239, 242, 251);
+   transform: rotate(-50deg);
+}
+.platform .container .right .human-box .lines {
+    display: flex;
+
+  }
+.platform .container .right .human-box .lines .line-one {
+    width: 10px;
+    height: 15px;
+    background-color: rgb(135, 32, 16);
+    border-radius: 3px;
+    position: relative;
+    top: 5px;
+ }
+ .platform .container .right .human-box .lines .line-two {
+    width: 10px;
+    height: 15px;
+    background-color: rgb(243, 222, 131);
+    margin-left: 5px;
+    border-radius: 3px;
+    position: relative;
+    top: 5px;
+ }
+ .platform .container .right .human-box .lines .line-three {
+    width: 10px;
+    height: 25px;
+    background-color: rgb(234, 72, 104);
+    margin-left: 5px;
+    border-radius: 3px;
+    position: relative;
+    bottom: 5px;
+ }
+ .platform .container .right .human-box .lines .line-four {
+    width: 10px;
+    height: 8px;
+    background-color: rgb(243, 217, 101);
+    margin-left: 5px;
+    border-radius: 3px;
+    position: relative;
+    top: 11px;
+ }
+ .platform .container .right .human-box .lines .line-five {
+    width: 10px;
+    height: 15px;
+    background-color: rgb(135, 32, 16);
+    margin-left: 5px;
+    border-radius: 3px;
+    position: relative;
+    top: 5px;
+ }
+ .platform .container .right .human-box .lines .line-six {
+    width: 10px;
+    height: 25px;
+    background-color: rgb(230, 66, 99);
+    margin-left: 5px;
+    border-radius: 3px;
+    position: relative;
+    bottom: 5px;
+ }
+ .platform .container .right .fa-camera {
+    font-size: 75px;;
+    position: relative;
+    left: 80%;
+    transform: rotate(-30deg);
+    color: rgb(112, 112, 199);
+ }
+ .one,
+.two {
+    display: flex;
+    align-items: center;
+}
+
+.one i,
+.two i {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+.platform .container .right .human-box .one .fa-circle-dot{
+    color: rgb(243, 217, 101);
+}
+.platform .container .right .human-box .two .fa-circle-dot{
+    color: rgb(230, 66, 99);
+}
+.platform .container .right .human-box .stats p{
+    font-weight: 600;
+    font-size: 15px;
+}
+.platform .container .right .human-box .stats span{
+    color: gray;
+    font-size: 15px;
+}
+@media only screen and (max-width: 767px) {
+    .platform .container .right {
+        display: none;
+    }
+    .platform .container .left {
+        width: 100%;
+    }
+    .platform .container #telegram{
+      display: none;
+        
+     }
+    
+}
+
+@media only screen and (max-width: 1023px) {
+    
+    
+    .platform .container .right #white-man{
+        position:relative;
+        height: 70%;
+        /*width: 90%;*/
+        bottom: 26%;
+       right: 95%;
+       
+     }
+       .platform .container .right .human-box {
+        position: relative;
+        bottom: 50%;
+        right: 20%;
+    }
+    .platform .container .right {
+        overflow: visible;
+        width: 50%;
+    }
+    .platform .container .left h3{
+        font-size: 20px;
+    }
+    .platform .container .left p{
+        font-size: 15px;;
+    }
+    .platform .container .left .pink-box,
+    .platform .container .left .pink-box p,
+    .platform .container .left .pink-box .user,
+    .platform .container .left .yellow-box,
+    .platform .container .left .yellow-box .backpack,
+    .platform .container .left .yellow-box p,
+    .platform .container .left .blue-box,
+    .platform .container .left .blue-box .hammer,
+    .platform .container .left .blue-box p{
+      display: none;
+    }
+    .platform .container #telegram{
+        display: none;
+        
+     }
+    
+}
+
+@media only screen and (max-width: 1215px) {
+  
+    .platform .container .right #white-man{
+        position:relative;
+        height: 100%;
+        bottom: 26%;
+        right: 15%;
+     }
+       .platform .container .right .human-box {
+        position: relative;
+        bottom: 50%;
+        right: 20%;
+    }
+    .platform .container .right {
+        overflow: visible;
+        width: 50%;
+    }
+    .platform .container .left h3{
+        font-size: 20px;
+    }
+    .platform .container .left p{
+        font-size: 15px;;
+    }
+    .platform .container .left .pink-box,
+    .platform .container .left .pink-box p,
+    .platform .container .left .pink-box .user,
+    .platform .container .left .yellow-box,
+    .platform .container .left .yellow-box .backpack,
+    .platform .container .left .yellow-box p,
+    .platform .container .left .blue-box,
+    .platform .container .left .blue-box .hammer,
+    .platform .container .left .blue-box p{
+      display: none;
+    }
+    .platform .container #telegram{
+        display: none;
+        
+     }
+
+}

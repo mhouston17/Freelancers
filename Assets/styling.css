@@ -1,0 +1,106 @@
+@import "./freelancers.css";
+@import "./features.css";
+@import "./reviews.css";
+@import "./market.css";
+@import "./numbers.css";
+@import "./platform.css";
+@import "./footer.css";
+
+
+
+.top{
+    background-color: rgb(239, 221, 240);
+  font-family: sans-serif;
+  overflow: hidden; 
+}
+.top .fa-regular {
+    border: 4px solid red;
+    padding: 10px;
+    background-color: rgb(111, 40, 40);
+    border-radius: 50%;
+    color: white;
+    fill: white;
+    margin-right: 10px;;
+}
+.top .logo span{ 
+  font-size: 21px;
+  font-weight: 700;
+}
+.top .nav-bar{
+    padding: 30px 70px;
+    display: flex; 
+    justify-content: space-between;
+  align-items: center;
+}
+
+.top .nav-bar .menu, .menu-options{
+  display: flex;
+}
+ .top .menu {
+    margin-left: auto;
+     align-items: center;
+     color: black;
+     
+}
+.top .menu ul li{
+    text-decoration: none;
+}
+.top .menu ul li a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600 ;
+}
+.buttons  {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+  .buttons a {
+    margin-right: 20px; 
+    text-decoration: none;
+    border-radius: 12px;;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  #login {
+    background-color: white;
+    color: black;
+    width: 60px;
+    box-shadow: 13px 14px 5px -7px rgba(153,136,136,0.71);
+-webkit-box-shadow: 13px 14px 5px -7px rgba(153,136,136,0.71);
+-moz-box-shadow: 13px 14px 5px -7px rgba(153,136,136,0.71);
+  }
+  #create {
+    background-color:  rgb(243, 55, 133);
+    box-shadow: 13px 14px 5px -7px rgba(153,136,136,0.71);
+-webkit-box-shadow: 13px 14px 5px -7px rgba(153,136,136,0.71);
+-moz-box-shadow: 13px 14px 5px -7px rgba(153,136,136,0.71);
+  }
+
+  @media only screen and (max-width: 767px) {
+    .top .nav-bar .menu, .menu-options {
+      display: block;
+      text-align: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .buttons  {
+      margin-top:  50px;;
+  }
+   
+  }
+  
+  @media only screen and (max-width: 1023px) {
+     
+  }
+  
+  @media only screen and (max-width: 1215px) {
+     
+  
+  }

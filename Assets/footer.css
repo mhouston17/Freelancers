@@ -1,0 +1,227 @@
+
+.footer {
+    background-color: rgb(35, 35, 68);
+    padding: 50px 60px;
+    font-family: sans-serif;
+    overflow: hidden; 
+}
+
+.footer .container .top-info {
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .top-info p{
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-left: 10%;
+    margin-bottom: 20px;;
+    
+}
+.footer .container .top-info .fa-star{
+border: 4px solid rgb(209, 4, 69);
+padding: 5px;
+font-size: 20px;
+background-color: rgb(111, 40, 40);
+border-radius: 50%;
+color: white;
+fill: white;
+margin-right: 10px;
+position: relative;
+bottom: 8px;
+}
+.footer .container .top-info button{
+    width: 10%;
+    height: 60px;
+    background-color: rgb(228, 93, 195);
+    border-radius: 10px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 10%;
+    align-items: center;
+}
+.footer .container .top-info button a{
+    color: white;
+    
+}
+.footer .container .thin-line{
+    width: 85%;
+    height: 1px;
+    margin-left: 8%;
+    margin-top: 45px;
+    background-color: rgb(88, 88, 88);
+}
+.footer .container .bottom .head{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+  }
+.footer .container .bottom {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  font-size: 15px;
+  
+}
+.footer .container .bottom .bottom-info ol li {
+    color: gainsboro;
+    
+  }
+  .footer .container .bottom .bottom-info {
+    line-height: 40px;
+  }
+  .footer .container .bottom .bottom-info .another-line {
+    width: 100%;
+    height: 1px;
+    margin-top: 35px;
+    background-color: rgb(88, 88, 88);
+
+  }
+  .footer .container .bottom .bottom-info .email {
+   margin-top: 25px;
+
+  }
+  .footer .container .bottom .bottom-info .phone {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+   }
+   .footer .container .bottom .bottom-info .fa-facebook,
+   .footer .container .bottom .bottom-info .fa-twitter, 
+    .footer .container .bottom .bottom-info .fa-youtube{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 50%;;
+   }
+   .footer .container .bottom .bottom-info .fa-instagram{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+    color: black;
+   }
+   .footer .container .bottom .bottom-info .fa-hand-pointer{
+    font-size: 20px;
+    color: white;
+    margin-left: 78px;
+    position: relative;
+    bottom: 17px;
+   }
+  .footer .container .bottom .bottom-info .social-media ul{
+    display: flex;
+    margin-top: 15px;;
+  }
+  .footer .container .bottom .bottom-info .social-media ul li{
+    margin-right: 20px;;
+  }
+  @media only screen and (max-width: 767px) {
+    .footer .container .top-info p{
+      font-size: 25px;
+    }
+    .footer .container .bottom .head{
+      color: white;
+      font-weight: 600;
+      font-size: 10px;
+  
+    }
+      .footer .container .bottom {
+        font-size: 7px;
+        
+      }
+      .footer .container .bottom .bottom-info .email {
+        margin-top: 25px;
+     
+       }
+       .footer .container .bottom .bottom-info .phone {
+         margin-top: 10px;
+         font-size: 7px;
+         font-weight: 600;
+        }
+        .footer .container .top-info button{
+          width: 20%;
+          height: 50px;
+          background-color: rgb(228, 93, 195);
+          border-radius: 10px;
+          border: none;
+          margin-left: 30px;
+          margin-top: 50px;
+          margin-right: 10%;
+          align-items: center;
+      }
+      .footer .container .top-info button a{
+          color: white;
+          font-size: 10px;
+         
+      }
+      .footer .container .thin-line{
+          width: 90%;
+          height: 1px;
+          margin-left: 5%;
+          margin-top: 45px;
+          background-color: rgb(88, 88, 88);
+      }
+  }
+  
+  
+  @media only screen and (max-width: 1023px) {
+    .footer .container .top-info p{
+      font-size: 25px;
+    }
+    .footer .container .bottom .head{
+      color: white;
+      font-weight: 600;
+      font-size: 10px;
+  
+    }
+      .footer .container .bottom {
+        font-size: 10px;
+        
+      }
+      .footer .container .bottom .bottom-info .email {
+        margin-top: 25px;
+     
+       }
+       .footer .container .bottom .bottom-info .phone {
+         margin-top: 10px;
+         font-size: 10px;
+         font-weight: 600;
+        }
+        .footer .container .top-info button{
+          width: 20%;
+          height: 50px;
+          background-color: rgb(228, 93, 195);
+          border-radius: 10px;
+          border: none;
+          margin-left: 30px;
+          margin-top: 50px;
+          margin-right: 10%;
+          align-items: center;
+      }
+      .footer .container .top-info button a{
+          color: white;
+          font-size: 15px;
+         
+      }
+      .footer .container .thin-line{
+          width: 90%;
+          height: 1px;
+          margin-left: 5%;
+          margin-top: 45px;
+          background-color: rgb(88, 88, 88);
+      }
+      .footer .container .top-info .fa-star{
+        margin-right: 10px;
+        position: relative;
+        bottom: 1px;
+        }
+  }
+  
+  @media only screen and (max-width: 1215px) {
+     
+  
+  }

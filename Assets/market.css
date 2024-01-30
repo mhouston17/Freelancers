@@ -1,0 +1,503 @@
+.market {
+    margin: 0 auto;
+    padding: 20rem 20px;
+    font-family: sans-serif;
+    overflow: hidden; 
+}
+.market .container .background{
+    width: 65%;
+    height: 50%;
+    left: 18%;
+    background-color: rgb(235, 244, 244);
+   border-radius: 10px;
+   background: rgba(192, 103, 188, 0.172);
+   position: absolute;
+}
+.market .container .background .fa-arrow-trend-up{
+    font-size: 29rem;
+    color:rgb(201, 107, 180);
+    opacity: .2;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    
+}
+.market .container .background .container-info{
+    bottom: 75%;
+    padding: 0 50px;
+    position: relative;
+    display: flex;
+}
+.market .container .background .container-info .left-side .head-info{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 40px;
+}
+.market .container .background .container-info .left-side p{
+   line-height: 23px;
+   margin-bottom: 30px;
+}
+.market .container .background .container-info .left-side button {
+    width: 35%;
+    height: 13%;
+    border-radius: 15px;
+    background-color:rgb(196, 31, 92);
+    border: none;
+    box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+     -webkit-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+     -moz-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+ }
+ .market .container .background .container-info .left-side button a{
+   text-decoration: none; 
+   color: white;  
+ }
+.market .container .background .container-info .right-box {
+   width: 50%;
+   height: 500px;
+   margin-left: 15%;
+   background-color: rgb(249, 240, 226);
+   border-radius: 20px;
+   bottom: 180px;
+   position: relative;
+   box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+     -webkit-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+     -moz-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+     display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.market .container .background .container-info .right-box .mystar{
+   bottom: 51%;
+   left: 80%;
+   position: relative;
+   border-radius: 1px solid white;
+   background-color: white;
+   padding: 10px;
+   right: 15px;
+   width: 40px;
+   height: 40px;
+   font-size: 30px;
+   border-radius: 5px;
+   transform: rotate(10deg);
+   box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+   -webkit-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+   -moz-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+  }
+  /*.market .container .background .container-info .right-box .fb-messenger{
+   bottom: 10%;
+   left: 80%;
+   position: relative;
+   border-radius: 1px solid white;
+   background-color: white;
+   padding: 10px;
+   right: 15px;
+   width: 50px;
+   height: 50px;
+   font-size: 30px;
+   border-radius: 5px;
+   transform: rotate(20deg);
+   box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+   -webkit-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+   -moz-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+  }*/
+.market .container .background .container-info .right-box .dot1 {
+   width: 20px;
+   height: 20px;
+   background-color: rgb(230, 140, 204);
+   border-radius: 50%;
+   position: relative;
+   right: 15px;
+  }
+  .market .container .background .container-info .right-box .dot2 {
+   width: 10px;
+   height: 10px;
+   background-color: rgb(185, 233, 218);
+   border-radius: 50%;
+   bottom: 20px;
+   position: relative;
+   bottom: 40%;
+   left: 20%;
+  }
+  .market .container .background .container-info .right-box .calculator {
+   bottom: 20px;
+   position: relative;
+   bottom: 50%;
+   right: 60px;
+   transform: rotate(-30deg);
+   width: 100px;
+   height: 100px;
+  }
+  .market .container .background .container-info .right-box #different-star{
+   
+   position: relative;
+   top: 37%;
+   right: 10%;
+  }
+  .market .container .background .container-info .right-box .fa-star{
+   border: 4px solid rgb(209, 4, 69);
+   padding: 5px;
+   font-size: 20px;
+   background-color: rgb(111, 40, 40);
+   border-radius: 50%;
+   color: white;
+   fill: white;
+   margin-right: 10px;
+   position: relative;
+   top: 37%;
+   right: 10%;
+  }
+.market .container .background .container-info .right-box .inside-box {
+    width: 70%;
+    height: 60%;
+    background-color: white;
+    align-items: center;
+    border-radius: 20px;
+ }
+ .market .container .background .container-info .right-box .long-box {
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    color: rgb(61, 7, 7);
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(211,0,88,1) 52%,rgba(255,0,132,1) 52%);
+    color: white;
+ }
+ .market .container .background .container-info .inside-box {
+ position: relative;
+ right: 50px;
+}
+ .market .container .background .container-info .right-box .long-box span{
+    margin-left: 10px;
+ }
+ .market .container .background .container-info .right-box .long-box .fa-repeat,
+ .market .container .background .container-info .right-box .long-box .far-right{
+    margin-left: 100px;
+ }
+ .market .container .background .container-info .right-box .long-box .fa-circle{
+    border: 5px solid rgb(155, 13, 37); 
+    background-color: white;
+    border-radius: 50%;
+    font-size: 10px;
+ }
+ .market .container .background .container-info .right-box .graph {
+    position: relative;
+    bottom: 15px;
+    color: gray;
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-end;
+    
+ }
+ .market .container .background .container-info .right-box .graph ul{
+   position: relative;
+   top: 17px;
+}
+ .market .container .background .container-info .right-box .graph .line1{
+    
+    margin-left: 5%;
+    width: 20px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(135, 242, 220);
+ }
+ .market .container .background .container-info .right-box .graph .line2{
+    margin-left: 5%;
+    width: 20px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: rgb(250, 234, 117);
+ }
+ .market .container .background .container-info .right-box .graph .line3{
+    margin-left: 5%;
+    width: 20px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(245, 153, 72);
+ }
+ .market .container .background .container-info .right-box .graph .line4{
+    margin-left: 5%;
+    width: 20px;
+    height:150px;
+    border-radius: 5px;
+    background-color: rgb(135, 242, 220);
+ }
+ .market .container .background .container-info .right-box .peak{
+   left: 43%;
+   top: 23%;
+   width: 45px;
+   height: 25px;
+   border-radius: 5px;
+   background-color: rgb(30, 32, 80);
+   position: relative;
+   color: white;
+   border-radius: 45%;
+   font-weight: 600;
+}
+.market .container .background .container-info .right-box .peak span{
+  color: white;
+  position: relative;
+  left: 10px;
+  top: 5px;;
+}
+ .market .container .background .container-info .right-box .graph .line5{
+    margin-left: 5%;
+    width: 20px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: rgb(117, 135, 250);
+ }
+ .market .container .background .container-info .right-box .graph .line6{
+    margin-left: 5%;
+    width: 20px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: rgb(239, 148, 43);
+ }
+ .market .container .background .container-info .right-box .graph .line7{
+    margin-left: 5%;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(117, 250, 150);
+ }
+ .market .container .background .container-info .right-box .graph .line8{
+    margin-left: 5%;
+    width: 20px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: rgb(250, 234, 117);
+ }
+ .market .container .background .container-info .right-box .two-profiles{
+    width: 70%;
+    height: 46%;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 40%;
+    bottom: 70px;
+    right: 8px;
+    position: relative;
+    box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 6px 17px 45px 0px rgba(0,0,0,0.12);
+ }
+ .market .container .background .container-info .right-box .two-profiles img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-left: 10px;
+  margin-top: 10px;
+  object-fit: cover;
+ }
+ .market .container .background .container-info .right-box .two-profiles .first-profile,
+ .market .container .background .container-info .right-box .two-profiles .second-profile{
+    display: flex;
+    align-items: center;
+    
+   }
+ .market .container .background .container-info .right-box .two-profiles .green-line{
+    width: 90px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: rgb(137, 222, 219);
+    margin-left: 10px;
+   }
+   .market .container .background .container-info .right-box .two-profiles .red-line{
+    width: 45px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: rgb(241, 156, 227);
+    margin-left: 20px;
+   }
+   @media only screen and (max-width: 767px) {
+      
+      .market .container .background .container-info .right-box {
+        display: none;
+      }
+      .market .container .background  {
+         width: 71%;
+         margin-right: 50px;
+       }
+       .market .container .background .fa-arrow-trend-up {
+         display: none;
+       }
+       .market .container .background .container-info .left-side{
+         margin-left: 5px;
+      }
+      .market .container .background .container-info .left-side p {
+        position: relative;
+        top: 20px;
+      }
+    }
+   
+   
+   @media only screen and (max-width: 1023px) {
+      .market .container .background .container-info .right-box {
+         /*display: none;*/
+       }
+       .market .container .background .container-info .left-side{
+         width: 100%;
+         
+      }
+      .market .container .background{
+         width: 85%
+      }
+      .market .container .background .fa-arrow-trend-up{
+         display: flex;
+         justify-content: center;
+         position: relative;
+         right: 60px;;
+     }
+     .market .container .background .container-info .left-side .head-info{
+      font-size: 25px;
+      font-weight: 600;
+      margin-bottom: 25px;
+      line-height: 40px;
+      position: relative;
+      bottom: 100px;
+  }
+  .market .container .background .container-info .left-side p{
+     line-height: 23px;
+     margin-bottom: 50px;
+     position: relative;
+      bottom: 50px;
+      width: 100%;
+      font-size: 13px;
+  }
+  .market .container .background .container-info .left-side button {
+      width: 35%;
+      height: 20%;
+      position: relative;
+      bottom: 67%;
+   }
+   .market .container .background .container-info .right-box {
+      width: 50%;
+      height: 400px;
+      margin-left: 15%;
+   }
+   .market .container .background .container-info .right-box .two-profiles{
+     display: none;
+   }
+   .market .container .background .container-info .right-box .graph {
+      position: relative;
+      bottom: 15px;
+      color: gray;
+      font-size: 20px;
+      line-height: 45px;
+      margin-right: 15px;
+   }
+   .market .container .background .container-info .right-box .graph ul{
+     position: relative;
+     top: 5px;
+  }
+  .market .container .background .container-info .right-box .graph .line4{
+   margin-left: 5%;
+   width: 20px;
+   height:120px;
+   border-radius: 5px;
+   background-color: rgb(135, 242, 220);
+}
+.market .container .background .container-info .right-box .peak{
+   left: 43%;
+   top: 17%;
+   width: 45px;
+   height: 25px;
+   position: relative;
+ 
+}
+.market .container .background .container-info .left-side button {
+   width: 35%;
+   height: 10%;
+   border-radius: 10px;
+   
+}
+   }
+   @media only screen and (max-width: 1215px) {
+      
+      .market .container .background .container-info .right-box {
+         /*display: none;*/
+       }
+       .market .container .background .container-info .left-side{
+         width: 100%;
+         
+      }
+      .market .container .background{
+         width: 85%
+      }
+      .market .container .background .fa-arrow-trend-up{
+         display: flex;
+         justify-content: center;
+         position: relative;
+         right: 60px;;
+     }
+     .market .container .background .container-info .left-side .head-info{
+      font-size: 3.6vw;
+      font-weight: 600;
+      margin-bottom: 25px;
+      line-height: 40px;
+      position: relative;
+      bottom: 100px;
+  }
+  .market .container .background .container-info .left-side p{
+     line-height: 23px;
+     margin-bottom: 50px;
+     position: relative;
+      bottom: 50px;
+      width: 100%;
+      font-size: 1.9vw;
+  }
+  .market .container .background .container-info .left-side button {
+      width: 35%;
+      height: 20%;
+      position: relative;
+      bottom: 69%;
+   }
+   .market .container .background .container-info .right-box {
+      width: 50%;
+      height: 400px;
+      margin-left: 15%;
+   }
+   .market .container .background .container-info .right-box .two-profiles{
+     display: none;
+   }
+   .market .container .background .container-info .right-box .graph {
+      position: relative;
+      bottom: 15px;
+      color: gray;
+      font-size: 20px;
+      line-height: 45px;
+      margin-right: 15px;
+   }
+   .market .container .background .container-info .right-box .graph ul{
+     position: relative;
+     top: 5px;
+  }
+  .market .container .background .container-info .right-box .graph .line4{
+   margin-left: 5%;
+   width: 20px;
+   height:120px;
+   border-radius: 5px;
+   background-color: rgb(135, 242, 220);
+}
+.market .container .background .container-info .right-box .peak{
+   left: 43%;
+   top: 17%;
+   width: 45px;
+   height: 25px;
+   position: relative;
+ 
+}
+.market .container .background .container-info .left-side button {
+   width: 35%;
+   height: 10%;
+   border-radius: 10px;
+   
+}
+   }
